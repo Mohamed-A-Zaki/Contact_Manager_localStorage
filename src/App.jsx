@@ -47,7 +47,7 @@ function App() {
       // set state
       setUsers([...users, new_user]);
       // redirect to users page
-      navigate("/");
+      navigate("/Contact_Manager_localStorage");
     },
     [name, email, users, navigate]
   );
@@ -82,7 +82,7 @@ function App() {
 
       <Routes>
         <Route
-          path="/"
+          path="/Contact_Manager_localStorage/"
           element={
             <Users users={users} deleteUser={deleteUser} editUser={editUser} />
           }
