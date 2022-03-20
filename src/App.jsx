@@ -82,14 +82,14 @@ function App() {
 
       <Routes>
         <Route
-          path=""
+          path="/"
           element={
             <Users users={users} deleteUser={deleteUser} editUser={editUser} />
           }
         />
 
         <Route
-          path="add"
+          path="/add"
           element={
             <Form
               name={name}
