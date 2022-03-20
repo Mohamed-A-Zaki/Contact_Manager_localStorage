@@ -1,0 +1,10 @@
+i {
+  font-size: 20px;
+  cursor: pointer;
+  &.delete {
+    color: #e91e63;
+  }
+  &.edit {
+    color: #00f;
+  }
+}
